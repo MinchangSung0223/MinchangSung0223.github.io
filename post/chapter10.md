@@ -61,6 +61,10 @@ groupoid라는 단어가 다른 의미를 다룰 수 도 있지만 여기서는 
 
 ```
 
+첫번째 특성을 결합법칙(associativity)이라 하고, 두번째 특성에서의 $e$를 $G$의 항등원(*identity* of $G$)라 한다. 그리고 $g^{-1}$를 $g \in G$의 역원(*inverse*)라고 한다. group은 위의 세 가지를 만족하면 성립하지만 특수하게 교환법칙이 성립하는 경우가 있다. 이러한 group의 경우 *commutative* group 또는 *Abelian* group이라 한다.
+
+
+### A Concrete Example: Symmetry Operation on the Equilateral Triangle
 
 
 <!-- $$
