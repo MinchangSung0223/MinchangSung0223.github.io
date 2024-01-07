@@ -12,6 +12,17 @@ matrix Lie groups은 vector spaces외의 수학적 구조에서 "the most like $
  1. Lie Groups는 일반적으로 "not comutative"이다. 즉, $g_1 \circ g_2 \neq g_2 \circ g_1$을 만족해야할 필요는 없다. 
  2. group내의 원소에 scalar를 곱하여 같은 group의 원소를 생성하는 것 또한 불가능하다.
 
+## 10.1 Introduction to Group Theroy
+
+### 10.1.1 Binary Operation
+Group은 집합(set)과 연산(operation)으로 쌍을 이룬다. 어떤 set $G$가 주어졌을때 "$(closed)\text{ } binary \text{ } operation$"이란 $G$의 어떤 두개의 원소가 연산에 의해서 다시 $G$로 되돌아오는 연산을 의미한다. 
+
+
+```note
+$b:G \times G \rightarrow G$ with $b(g_1,g_2) \doteq g_1 \circ g_2$
+```
+
+
 
 
 
