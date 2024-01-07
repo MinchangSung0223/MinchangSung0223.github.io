@@ -51,7 +51,7 @@ groupoid라는 단어가 다른 의미를 다룰 수 도 있지만 여기서는 
   following properties hold:
 
 
-  1. $g_1 \circ (g_2 \circ g_3) =  $(g_1 \circ g_2) \circ g_3 $
+  1. $g_1 \circ (g_2 \circ g_3) =  (g_1 \circ g_2) \circ g_3 $
 
 
   2. There exists an element $e \in G$ such that $e \circ g = g$.
