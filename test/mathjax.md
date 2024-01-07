@@ -1,5 +1,5 @@
 ---
-sort: 10
+sort: 1
 ---
 
 # Mathjax Test
@@ -21,6 +21,3 @@ $$
 \end{aligned}
 $$
 
-```note
-For documentation, see: https://kramdown.gettalong.org/syntax.html#math-blocks
-```
