@@ -40,9 +40,26 @@ $b:G \times G \rightarrow G$  with  $b(g_1,g_2) \doteq g_1 \circ g_2$
 
 ### 10.1.2 Groups, Groupoids, and Semi-groups
 
+```note
+The pair $(G,\circ)$ consisting of the set $G$ and binary operation $\circ$ form a mathematical structure that is called a *groupoid* or a *magma*
+```
+
+groupoid라는 단어가 다른 의미를 다룰 수 도 있지만 여기서는 Group을 정의하기 위한 보다 큰 Category로 본다.
+
+```note
+  A *group* is a special kind of groupoid such that for any elements $g, g_1, g_2, g_3 \in G$, the
+  following properties hold:
 
 
+  1. $g_1 \circ (g_2 \circ g_3) =  $(g_1 \circ g_2) \circ g_3 $
 
+
+  2. There exists an element $e \in G$ such that $e \circ g = g$.
+
+
+  3. For every element $g \in G$, there is an element $g^{-1} \in G$ such that $g^{-1} \circ g = e$
+
+```
 
 
 
