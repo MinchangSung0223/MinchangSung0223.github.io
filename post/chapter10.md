@@ -97,12 +97,81 @@ $$
 그럼 이 표를 이용해서 group $(G_T, \circ)$가 group의 정의를 만족하는가를 확인해보자.(단,$\circ$는 binary operation)
 
 1. $(G_T, \circ)$는 $g_i,g_j,g_k \in G_T$에 대해서 $(g_i \circ g_j) \circ g_k=g_i \circ (g_j \circ g_k)$를 만족.
-2. 모든 원소에 대한 항등원 $e$가 존재.
-3. 모든 원소에 대한 역원 $g^{-1}$가 존재. (ex. $g_2 \circ g_1 = e$)
+2. 모든 원소에 대한 항등원 $e$가 존재하며 unique
+3. 모든 원소에 대한 역원 $g^{-1}$가 존재하며 unique. (ex. $g_2 \circ g_1 = e$)
 
 따라서 $(G_T,\circ)$는 group의 정의를 만족하며 group이라 할 수 있다.
 
-### Abstract Group Theroy
+#### Abstract Group Theroy
+### 10.1.3 Subgroups
+### 10.1.4 Group Actions and Transformation Groups
+### 10.1.5 Cosets
+### 10.1.6 Coset Spaces and Quotient Groups
+### 10.1.7 Double-Coset Decompositions
+### 10.1.8 Mappings Between Groups
+#### Homomorphisms
+#### Isomorphisms
+#### Automorphisms
+### Generating New Mappings from Old Ones
+#### Functions
+### 10.1.9 Products of Groups
+#### Direct Products
+#### Semi-direct Products
+#### Wreath Products
+
+## 10.2 Matrix Lie Groups and Lie Algebras
+### 10.2.1 A Usable Definition of Matrix Lie Groups
+### 10.2.2 Broad Classes of Matrix Lie Groups
+### 10.2.3 The Exponential and Logarithm Maps
+### 10.2.4 The $\vee$ Operator
+### 10.2.5 The Adjoint Operator $Ad(g)$
+### 10.2.6 The Lie Bracket and $ad(X)$
+### 10.2.7 The Baker–Campbell–Hausdorff Formula
+## 10.3 Change of Basis in a Matrix Lie Algebra
+### 10.3.1 General Change of Basis
+### 10.3.2 Invariance of Functions of Structure Constants
+### 10.3.3 Changes of Basis Due to Adjoint Action
+## 10.4 Inner Products on Matrix Lie Algebras
+### 10.4.1 Calculating Jacobians
+### 10.4.2 Invariant Vector Fields
+## 10.5 Adjoint Matrices and the Killing Form
+### 10.5.1 The Killing Form
+### 10.5.2 The Matrices of $Ad(g)$, $Ad^{\ast}(g)$, $ad(X)$, and $B(X, Y )$
+### 10.5.3 Relationship Between $ad(X)$ and $B(X, Y )$, and the Structure Constants
+### 10.5.4 Conditions for Unimodularity
+## 10.6 Examples
+### 10.6.1 The Heisenberg Nilpotent Group
+### 10.6.2 The Group of Rigid-Body Motions of the Euclidean Plane, $SE(2)$
+### 10.6.3 The Group $SL(2, \mathbb{R})$
+### 10.6.4 The Motion Group of the Lobachevsky Plane, $L(2)$
+### 10.6.5 The Lorentz Group, $SO(2,1)$
+### 10.6.6 The Rotation Group, $SO(3)$
+### 10.6.7 The Group $GL(2, \mathbb{R})$
+### 10.6.8 The Scale-Euclidean Group of the Plane, $SIM(2)$
+### 10.6.9 $SE(3)$, The Group of Rigid-Body Motions
+### 10.6.10 The Weyl–Heisenberg Group and Its Semidirect Product with $SL(2, \mathbb{R})$
+
+## 10.7 Objects That Are Not Quite Groups
+### Case Study 1:
+### Case Study 2:
+### Case Study 3:
+### Case Study 4:
+### Case Study 5:
+## 10.8 Chapter Summary
+## 10.9 Exercises
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- $$
 \begin{aligned}
