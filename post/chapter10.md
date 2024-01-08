@@ -3,7 +3,7 @@ sort: 1
 ---
 
 # Lie Groups 1: Introduction and Examples
-*Lie groups*은 노르웨이 수학자 Sopus Lie가 이름지은 *group*의 special case이다. 나아가 일반적인 로봇 책에서 다루는 Lie groups*은 역행렬을 갖는 정방행렬들을 원소로 하는 *matrix Lie $groups*를 다룬다. 
+*Lie groups*은 노르웨이 수학자 Sopus Lie가 이름지은 *group*의 special case이다. 나아가 일반적인 로봇 책에서 다루는 Lie groups*은 역행렬을 갖는 정방행렬들을 원소로 하는 *matrix Lie groups*를 다룬다. 
 
 matrix Lie groups은 vector spaces외의 수학적 구조에서 "the most like $\mathbb{R}^{n}$"라고 한다. 실제로 $\mathbb{R}^{n}$은 $+$ 연산과 함께 Lie Groups의 예시로 볼 수 있다. 좀 더 일반화 하여 보면 어떤 Lie Group상의 점 $G$와 $\mathbb{R}^n$상의 어떤 점은 locally indistinguishable하며, globally하게는 $G$는 orientable이다. 점 근처만 본다고 하면 $\mathbb{R}^{n}$과 유사하지만 globally하게 본다면 $\mathbb{R}^{n}$과 달리 방향을 갖는다. 
 
@@ -123,6 +123,7 @@ $$
   GL(N,\mathbb{R}) \doteq \{ A \in \mathbb{R}^{N\times n} | det A \neq 0\}
 $$
 
+a
 ### 10.1.3 Subgroups
 ### 10.1.4 Group Actions and Transformation Groups
 ### 10.1.5 Cosets
