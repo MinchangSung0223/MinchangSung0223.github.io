@@ -137,6 +137,10 @@ $$
 
 위의 set도 matrix multiplication 연산과 같이 group으로 정의된다. 일반적으로 행렬에 대한 set들은 matrix multiplication 연산자가 당연하기 때문에 set의 이름을 그대로 group의 이름으로 종종 사용한다.
 ### 10.1.3 Subgroups
+```note
+A subgroup is a subset of a group $( H \subseteq G)$ which is itself a group that is closed under the group operation of $G$. This means that $h^{-1} \in H$ whenever $h \in H$. The notation for this is $H \leq G$. If $H \leq G$ and $H \neq G$, then $H$ is called a proper subgroup of $G$, which is denoted as $H<G$. This notation parallels that of a proper subset. Each group has at least two improper subgroups: $\{e\}$ and itself.
+```
+
 *subgroup*이란 group의 subset$(H \subseteq G)$인데 $G$의 group operation에 대해서 closed인 subset을 의미한다.
 이 의미는 $h \in H$에 대해서 $h^{-1} \in H$가 항상 존재함을 의미하며 $H\leq G$로 표현한다. 이때 $H \neq G$인 경우에 대해서는 *proper subgroup* of $G$라 하고 $H<G$로 나타낸다. 
 각 group은 $\{e\}$과 group자기자신으로 적어도 두개의 improper subgroups를 갖는다.
