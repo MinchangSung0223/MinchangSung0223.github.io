@@ -194,6 +194,7 @@ R_3(\theta)=\left(\begin{array}{ccc}
 0 & 0 & 1
 \end{array}\right)
 $$
+
 만약에 $g_n = [\mathbf{a},\mathbf{b},\mathbf{n}] \in SO(3)$ 이면 subgroup $K_n \doteq g_n H g^{-1}_n < SO(3)$으로 정의하며 위의 행렬처럼 정의한 경우 conjugate 연산한 경우 $\mathbf{n}$은 고정된다. 
 
 
@@ -224,17 +225,21 @@ g_1 H_4 g_1^{-1} = H_3
 $$
 
 모든 $g \in G$에 대해서 H_1은 자신에 대해 conjugate이므로 normal subgroup이다.
+
 $$
 g H_1 g^{-1} = H_1
 $$
 
 두개의 subgroup $H \neq G$와 $K \neq G$일때 product는
+
 $$
 HK \doteq \{h \circ k | h \in H, k \in K \}
 $$
+
 로 정의하고 subset $HK \subseteq G$ 이 된다.(subgroup의 특성을 갖추지 않을 수 있음). 
 
 table group $(G_T,\circ)$로 예를 들면, 
+
 $$
 \begin{aligned}
 H_1H_i = H_iH_1 = G \text{ for } i=2,3,4\\
@@ -249,12 +254,15 @@ $$
 *transformation group* 
 ```note
 *transformation group* $(G,\circ)$  is a group that acts on a set S in such a way that $g \cdot x \in S$ is defined for all $x \in S$ and $g \in G$ and has the properties
+
+
 $$
 \begin{aligned}
  e \cdot x   = x\\
  (g_1 \circ g_2) \cdot x = g_1 \cdot (g_2 \cdot x) \in S
 \end{aligned}
 $$
+
 
 ```
 
