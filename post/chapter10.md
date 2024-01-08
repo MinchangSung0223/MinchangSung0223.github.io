@@ -270,9 +270,11 @@ $$
 
 
 $$
-\begin{aligned}
- e \cdot x  &= x\\
- (g_1 \circ g_2) \cdot x &= g_1 \cdot (g_2 \cdot x) \in S
+
+ e \cdot x  = x
+$$
+$$
+ (g_1 \circ g_2) \cdot x = g_1 \cdot (g_2 \cdot x) \in S
 \end{aligned}
 $$
 
