@@ -263,8 +263,10 @@ $$
 \end{aligned}
 $$
 
-
+for all $x \in S$ and $e,g_1,g_2 \in G$. The operation $\cdot$ defines the *action* of $G$ on $S$
 ```
+
+
 
 
 ### 10.1.5 Cosets
