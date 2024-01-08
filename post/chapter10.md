@@ -279,8 +279,17 @@ $$
 for all $x \in S$ and $e,g_1,g_2 \in G$. The operation $\cdot$ defines the *action* of $G$ on $S$
 ```
 
+여기서 $\cdot$으로 표기되는 operation을 *action*으로 정의한다. 어떤 set S상에서의 원소를 S의 다른 원소로 이동시키는 것을 의미한다. 이 때 $g \cdot x = x$ 인 경우, 즉 x에 대한 g의 action이 x가 되는 경우 $g$가 $G$의 항등원 $e$가 되며 이 경우를 *free* action이라 한다. 따라서 free인 경우 항등원 이외의 원소는 x를 x로 유지하지 않는다.
 
 
+```note
+If $S$ is a set and $G$ is a group that acts on it, the notation $S / G$ (or $G \backslash S$ ) is used to denote the set of equivalence classes of $S$ under the action of $G$.
+```
+
+
+```note
+ In other words, if $G$ does not act transitively on $S$, then it divides it into disjoint equivalence classes called *orbits*
+```
 
 
 ### 10.1.5 Cosets
