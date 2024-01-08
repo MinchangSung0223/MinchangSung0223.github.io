@@ -138,7 +138,7 @@ $$
 위의 set도 matrix multiplication 연산과 같이 group으로 정의된다. 일반적으로 행렬에 대한 set들은 matrix multiplication 연산자가 당연하기 때문에 set의 이름을 그대로 group의 이름으로 종종 사용한다.
 ### 10.1.3 Subgroups
 ```note
-A subgroup is a subset of a group $( H \subseteq G)$ which is itself a group that is closed under the group operation of $G$. This means that $h^{-1} \in H$ whenever $h \in H$. The notation for this is $H \leq G$. If $H \leq G$ and $H \neq G$, then $H$ is called a proper subgroup of $G$, which is denoted as $H<G$. This notation parallels that of a proper subset. Each group has at least two improper subgroups: $\{e\}$ and itself.
+A *subgroup* is a subset of a group $( H \subseteq G)$ which is itself a group that is closed under the group operation of $G$. This means that $h^{-1} \in H$ whenever $h \in H$. The notation for this is $H \leq G$. If $H \leq G$ and $H \neq G$, then $H$ is called a proper subgroup of $G$, which is denoted as $H<G$. This notation parallels that of a proper subset. Each group has at least two improper subgroups: $\{e\}$ and itself.
 ```
 
 *subgroup*이란 group의 subset$(H \subseteq G)$인데 $G$의 group operation에 대해서 closed인 subset을 의미한다.
@@ -151,33 +151,42 @@ A subgroup is a subset of a group $( H \subseteq G)$ which is itself a group tha
 $$
   SL(N,\mathbb{F}) \doteq \{ A \in  \mathbb{F}^{N \times N} | \mathrm{det}(A) = +1 \} \subset GL(N,\mathbb{F})
 $$
+
 위와 같이 *special linear group*을 정의할 수 있다. 그리고 $SL(N,\mathbb{F}) < GL(N,\mathbb{F})$ 이다.
 
 다른 예제로는 $GL(N,\mathbf{C})$의 subset인 *unitary group*이 있다. 
+
 $$
   U(N) \doteq \{ A \in  \mathbb{C}^{N \times N} | AA^{\ast} = \mathbf{I} \} < GL(N,\mathbb{C})
 $$
 
 
 *special unitary group*
+
 $$
   SU(N) \doteq U(N) \cap SL(N,\mathbf{C}) < GL(N,\mathbb{C})
 $$
 
 
 *orthogonal group*
+
+
 $$
   O(N,\mathbb{R})\doteq \{ A \in GL(N,\mathbb{R}) | AA^T = \mathbb{I}\} = U(N) \cap GL(N,\mathbb{R})
 $$
 
 
 *special orthogonal group*
+
+
 $$
   SO(N)\doteq \{ A \in GL(N,\mathbb{R}) | AA^T = \mathbb{I},\mathrm{det} A = 1 \} = U(N) \cap SL(N,\mathbb{R})
 $$
 
 
 *conjugate subgroup* 
+
+
 group theory에서 종종 다뤄지는 부분으로 여기서 subgroup은 group의 operation에 의한 conjugate연산에 의해서 생성된다.
 
 $$
