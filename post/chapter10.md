@@ -123,7 +123,7 @@ $$
   GL(N,\mathbb{R}) \doteq \{ A \in \mathbb{R}^{N\times n} | det A \neq 0\}
 $$
 
-add
+add dd
 ### 10.1.3 Subgroups
 ### 10.1.4 Group Actions and Transformation Groups
 ### 10.1.5 Cosets
