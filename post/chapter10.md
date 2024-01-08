@@ -246,6 +246,19 @@ $$
 여기서 만약 $N \unlhd G$ 이며 $H \neq G$이면 $NH=HN$이다. 그러나 subgroups중에 하나가 normal이 아니라면 성립하지 않음.
 
 ### 10.1.4 Group Actions and Transformation Groups
+*transformation group* 
+```note
+*transformation group* $(G,\circ)$  is a group that acts on a set S in such a way that $g \cdot x \in S$ is defined for all $x \in S$ and $g \in G$ and has the properties
+$$
+\begin{aligned}
+ e \cdot x   = x\\
+ (g_1 \circ g_2) \cdot x = g_1 \cdot (g_2 \cdot x) \in S
+\end{aligned}
+$$
+
+```
+
+
 ### 10.1.5 Cosets
 ### 10.1.6 Coset Spaces and Quotient Groups
 ### 10.1.7 Double-Coset Decompositions
