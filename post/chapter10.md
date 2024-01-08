@@ -292,6 +292,17 @@ If $S$ is a set and $G$ is a group that acts on it, the notation $S / G$ (or $G 
 ```
 
 
+이를 보여주는 예제가 바로 $\mathbb{R}^{n}/SO(n)$ ( or $SO(n)\backslash  \mathbb{R}^n$) 이다.  
+
+$\omega \in \mathbb{R}^{3}$의 원소를 $R \in SO(3)$을 이용하여 다음과 같이 나타낼 수 있다.
+
+$$
+  \omega^\prime = R \omega \in \mathbb{R}^3
+$$
+
+이 경우 $\mathbb{R}^{3}/SO(3)$ 으로 나타낼 수 있다. 많은 책들에서 $\mathbb{R}^{3}/SO(3)$  로 표기한다. 그러나 이 책에서는 group을 먼저 적는다..  ($SO(n)\backslash \mathbb{R}^{n}$), 의미적으로는 같다.
+
+
 ### 10.1.5 Cosets
 ### 10.1.6 Coset Spaces and Quotient Groups
 ### 10.1.7 Double-Coset Decompositions
