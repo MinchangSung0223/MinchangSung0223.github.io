@@ -123,8 +123,22 @@ $$
   GL(N,\mathbb{R}) \doteq \{ A \in \mathbb{R}^{N\times n} | det A \neq 0\}
 $$
 
+이 set은 matrix multiplication 연산과 함께 the *general linear group* "over the real numbers"라 한다. 보다 일반적으로는 $\mathbb{R}$은 어떤 field $\mathbb{F}$나, 복소수 $\mathbb{C}$ 등으로 대체될 수 있다.
 
+
+이 group의 항등원은 $\mathbb{I}_N$이라 나타내며 대각 원소가 1인 $N \times N$ identity matirx이다.
+
+
+determinant가 항상 양수인 positive matrix에 대한 set은 다음과 같이 정의한다.
+
+$$
+  GL^{+}(N,\mathbb{R}) \doteq \{ A \in \mathbb{R}^{N\times n} | det A > 0\}
+$$
+
+위의 set도 matrix multiplication 연산과 같이 group으로 정의된다. 일반적으로 행렬에 대한 set들은 matrix multiplication 연산자가 당연하기 때문에 set의 이름을 그대로 group의 이름으로 종종 사용한다.
 ### 10.1.3 Subgroups
+
+
 ### 10.1.4 Group Actions and Transformation Groups
 ### 10.1.5 Cosets
 ### 10.1.6 Coset Spaces and Quotient Groups
