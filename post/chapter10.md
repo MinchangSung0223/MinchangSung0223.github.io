@@ -202,6 +202,8 @@ $$
 어떤 subgroup $N\leq G$이며 모든 $g \in G$에 대해 $gNg^{-1} = N$라면  "*normal* subgroup of $G$"라고 한다.(자기 자신에 대해서 conjugate한 경우). 이 경우 $N \unlhd G$로 표기한다. 이때 $N=G$가 가능한 경우이며 $N \neq G$인 경우는 $N\lhd G$로 표기한다.( normal and proper subgroup)
 
 그럼 table예제로 돌아가보자. 예제에서의 proper subgroups는 table을 보고 구할 수 있다.
+
+
 | $\circ$ | $e$ | $g_1$ | $g_2$ | $g_3$ | $g_4$ | $g_5$ |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | $e$ | $e$ | $g_1$ | $g_2$ | $g_3$ | $g_4$ | $g_5$ |
