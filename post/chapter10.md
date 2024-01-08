@@ -212,6 +212,37 @@ $$
 | $g_5$ | $g_5$ | $g_4$ | $g_3$ | $g_2$ | $g_1$ | $e$ |
 
 proper subgroups : $\{e\}, H_1 = \{e,g_1,g_2  \}, H_2 = \{e,g_3 \},H_3=\{e,g_4\} \text{ and } H_4=\{e,g_4 \}$
+
+subgroup H_2,H_3,H_4는 서로 conjugate하다. 
+
+$$
+g_1 H_2 g_1^{-1} = H_4; ~~ 
+g_1 H_3 g_1^{-1} = H_2; ~~
+g_1 H_4 g_1^{-1} = H_3
+$$
+
+모든 $g \in G$에 대해서 H_1은 자신에 대해 conjugate이므로 normal subgroup이다.
+$$
+g H_1 g^{-1} = H_1
+$$
+
+두개의 subgroup $H \neq G$와 $K \neq G$일때 product는
+$$
+HK \doteq \{h \circ k | h \in H, k \in K \}
+$$
+로 정의하고 subset $HK \subseteq G$ 이 된다.(subgroup의 특성을 갖추지 않을 수 있음). 
+
+table group $(G_T,\circ)$로 예를 들면, 
+$$
+\begin{aligned}
+H_1H_i = H_iH_1 = G \text{ for } i=2,3,4\\
+H_2H_3 = \{e,g_2,g_3,g_4\} \subset G\\
+H_3H_2 = \{e,g_1,g_3,g_4\} \subset G
+\end{aligned}
+$$
+
+여기서 만약 $N \unlhd G$ 이며 $H \neq G$이면 $NH=HN$이다. 그러나 subgroups중에 하나가 normal이 아니라면 성립하지 않음.
+
 ### 10.1.4 Group Actions and Transformation Groups
 ### 10.1.5 Cosets
 ### 10.1.6 Coset Spaces and Quotient Groups
