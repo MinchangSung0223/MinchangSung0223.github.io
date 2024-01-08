@@ -137,6 +137,70 @@ $$
 
 위의 set도 matrix multiplication 연산과 같이 group으로 정의된다. 일반적으로 행렬에 대한 set들은 matrix multiplication 연산자가 당연하기 때문에 set의 이름을 그대로 group의 이름으로 종종 사용한다.
 ### 10.1.3 Subgroups
+*subgroup*이란 group의 subset$(H \subseteq G)$인데 $G$의 group operation에 대해서 closed인 subset을 의미한다.
+이 의미는 $h \in H$에 대해서 $h^{-1} \in H$가 항상 존재함을 의미하며 $H\leq G$로 표현한다. 이때 $H \neq G$인 경우에 대해서는 *proper subgroup* of $G$라 하고 $H<G$로 나타낸다. 
+각 group은 $\{e\}$과 group자기자신으로 적어도 두개의 improper subgroups를 갖는다.
+
+
+예시로 실수는 복소수의 special case이다. 따라서 $GL(N,\mathbb{R}) < GL(N,\mathbb{C})$이며, $\mathrm{det}(AB) = \mathrm{det}(A)\mathrm{det}(B)$이므로
+
+$$
+  SL(N,\mathbb{F}) \doteq \{ A \in  \mathbb{F}^{N \times N} | \mathrm{det}(A) = +1 \} \subset GL(N,\mathbb{F})
+$$
+위와 같이 *special linear group*을 정의할 수 있다. 그리고 $SL(N,\mathbb{F}) < GL(N,\mathbb{F})$ 이다.
+
+다른 예제로는 $GL(N,\mathbf{C})$의 subset인 *unitary group*이 있다. 
+$$
+  U(N) \doteq \{ A \in  \mathbb{C}^{N \times N} | AA^{\ast} = \mathbf{I} \} < GL(N,\mathbb{C})
+$$
+
+
+*special unitary group*
+$$
+  SU(N) \doteq U(N) \cap SL(N,\mathbf{C}) < GL(N,\mathbb{C})
+$$
+
+
+*orthogonal group*
+$$
+  O(N,\mathbb{R})\doteq \{ A \in GL(N,\mathbb{R}) | AA^T = \mathbb{I}\} = U(N) \cap GL(N,\mathbb{R})
+$$
+
+
+*special orthogonal group*
+$$
+  SO(N)\doteq \{ A \in GL(N,\mathbb{R}) | AA^T = \mathbb{I},\mathrm{det} A = 1 \} = U(N) \cap SL(N,\mathbb{R})
+$$
+
+
+*conjugate subgroup* 
+group theory에서 종종 다뤄지는 부분으로 여기서 subgroup은 group의 operation에 의한 conjugate연산에 의해서 생성된다.
+
+$$
+\begin{aligned}
+gHg^{-1} \doteq& \{ g \circ h \circ g^{-1} | h \in H\} 
+\\ 
+&\text{ for a single(fixed) } g \in G \text{ with }  g \notin H<G
+\end{aligned}
+$$
+
+
+예를들면 만약 $G = SO(3)$ 이고 $H \cong SO(2) $라 할때($\cong$의 의미는 근본적으로는 같으나 같진 않은 경우) 다음과 같이 행렬을 구성하자.
+
+$$
+R_3(\theta)=\left(\begin{array}{ccc}
+\cos \theta & -\sin \theta & 0 \\
+\sin \theta & \cos \theta & 0 \\
+0 & 0 & 1
+\end{array}\right)
+$$
+만약에 $g_n = [\mathbf{a},\mathbf{b},\mathbf{n}] \in SO(3)$ 이면 subgroup $K_n \doteq g_n H g^{-1}_n < SO(3)$으로 정의하며 위의 행렬처럼 정의한 경우 conjugate 연산한 경우 $\mathbf{n}$은 고정된다. 
+
+
+일반적으로 만약 $H_1,H_2 \leq G$이며 모든 g에 대해서 $gH_1g^{-1} = H_2$인 경우 "$H_1$와 $H_2$는 서로 conjugate하다"라고 한다. 
+
+어떤 subgroup $N\leq G$이며 모든 $g \in G$에 대해 $gNg^{-1} = N$라면  "*normal* subgroup of $G$"라고 한다.(자기 자신에 대해서 conjugate한 경우). 이 경우 $N \unlhd G$로 표기한다. 이때 $N=G$가 가능한 경우이며 $N \neq G$인 경우는 $N\lhd G$로 표기한다.( normal and proper subgroup)
+
 
 
 ### 10.1.4 Group Actions and Transformation Groups
