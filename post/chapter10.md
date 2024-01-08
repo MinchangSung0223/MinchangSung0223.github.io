@@ -274,11 +274,11 @@ $$
 $$
 $$
  (g_1 \circ g_2) \cdot x = g_1 \cdot (g_2 \cdot x) \in S
-\end{aligned}
 $$
 
 for all $x \in S$ and $e,g_1,g_2 \in G$. The operation $\cdot$ defines the *action* of $G$ on $S$
 ```
+
 
 
 
