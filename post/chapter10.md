@@ -117,6 +117,12 @@ $$
 그럼 $\mathbb{R}^{N\times N}$과 matrix multiplication은 group일까? 이때는 "almost" a group이라 하는데 왜그럴까? 일반적으로 matrix는 singular인 경우 역원이 존재하지 않는다. 이경우에 대해서는 3번 성질이 성립하지 않고 이때는 *semi-group*이라 일컷는다.
 
 
+역행렬이 존재하는 $N \times N$ 실수 정방행렬 set를 다음과 같이 정의한다.
+
+$$
+  GL(N,\mathbb{R}) \doteq \{ A \in \mathbb{R}^{N\times n} | det A \neq 0\}
+$$
+
 ### 10.1.3 Subgroups
 ### 10.1.4 Group Actions and Transformation Groups
 ### 10.1.5 Cosets
