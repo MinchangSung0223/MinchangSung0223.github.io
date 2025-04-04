@@ -1,6 +1,31 @@
-title: Minchang's Research Blog
-description: 연구, 정리, 코드, 그리고 수식까지!
-remote_theme: just-the-docs/just-the-docs
+title: 연구/정리/코드
+description: Just another documentation theme compatible with GitHub Pages
+
+theme: null
+
+# debug:
+#   compress: true
+#   dist: false
+#   shortcodes: true
+
+readme_index:
+  with_frontmatter: true
 
 plugins:
-  - jekyll-remote-theme
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
+
+exclude:
+  - Makefile
+  - CNAME
+  - LICENSE
+  - update.sh
+  - Gemfile
+  - Gemfile.lock
+  - requirements.txt
+  - node_modules
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - jekyll-rtd-theme.gemspec
