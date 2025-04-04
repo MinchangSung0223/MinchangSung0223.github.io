@@ -13,7 +13,6 @@ jobs:
       version: ${{ steps.matching.outputs.version }}
     steps:
       - uses: actions/checkout@main
-      - uses: rundocs/checkout@master
       - name: Match the commit message whether to Release!
         run: |
           MESSAGE=$(git log -1 --format="%s")
