@@ -1,31 +1,23 @@
-title: 연구/정리/코드
-description: Just another documentation theme compatible with GitHub Pages
+title: 연구 정리 블로그
+description: 논문과 수식 정리를 위한 공간입니다
+remote_theme: mmistakes/minimal-mistakes
 
-# ✅ just-the-docs 테마 사용
-remote_theme: just-the-docs/just-the-docs
-color_scheme: light  # 또는 dark, auto 등 설정 가능
-
-# ✅ Plugins 설정 (GitHub Pages에서 remote_theme 작동시키기 위해 필요)
 plugins:
   - jekyll-remote-theme
-  - jemoji
-  - jekyll-avatar
-  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-seo-tag
 
-# ✅ 기존 테마 관련 설정 제거
-# theme: null  ← 제거
-# readme_index 관련 설정도 제거 가능 (선택)
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
 
-exclude:
-  - Makefile
-  - CNAME
-  - LICENSE
-  - update.sh
-  - Gemfile
-  - Gemfile.lock
-  - requirements.txt
-  - node_modules
-  - package.json
-  - package-lock.json
-  - webpack.config.js
-  - jekyll-rtd-theme.gemspec
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false

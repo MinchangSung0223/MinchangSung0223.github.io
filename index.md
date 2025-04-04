@@ -1,0 +1,6 @@
+---
+layout: home
+author_profile: true
+---
+
+여기는 연구 내용을 정리하는 블로그입니다.
