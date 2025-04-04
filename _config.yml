@@ -21,3 +21,5 @@ defaults:
       read_time: true
       comments: false
       share: false
+# 최소 구성에선 빠질 수 있음 → 명시적으로 설정
+theme: null
