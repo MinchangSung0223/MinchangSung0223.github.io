@@ -1,25 +1,6 @@
-title: 연구 정리 블로그
-description: 논문과 수식 정리를 위한 공간입니다
-remote_theme: mmistakes/minimal-mistakes
+title: Minchang's Research Blog
+description: 연구, 정리, 코드, 그리고 수식까지!
+remote_theme: just-the-docs/just-the-docs
 
 plugins:
   - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-seo-tag
-
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
-
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: false
-# 최소 구성에선 빠질 수 있음 → 명시적으로 설정
-theme: null
