@@ -1,20 +1,20 @@
 title: 연구/정리/코드
 description: Just another documentation theme compatible with GitHub Pages
 
-theme: null
+# ✅ just-the-docs 테마 사용
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light  # 또는 dark, auto 등 설정 가능
 
-# debug:
-#   compress: true
-#   dist: false
-#   shortcodes: true
-
-readme_index:
-  with_frontmatter: true
-
+# ✅ Plugins 설정 (GitHub Pages에서 remote_theme 작동시키기 위해 필요)
 plugins:
+  - jekyll-remote-theme
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
+
+# ✅ 기존 테마 관련 설정 제거
+# theme: null  ← 제거
+# readme_index 관련 설정도 제거 가능 (선택)
 
 exclude:
   - Makefile
