@@ -1,11 +1,8 @@
 ---
-sort: 1
+sort: 2
 ---
 
-# Stochastic Models, Information Theory, and Lie Groups
+# 기타..
 
-```
-{% raw %}{% include list.liquid all=true %}{% endraw %}
-```
 
 {% include list.liquid all=true %}
