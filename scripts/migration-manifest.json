@@ -1,0 +1,17 @@
+[
+  {
+    "source": "post/chapter10.md",
+    "destination": "src/content/docs/mathematics/lie-group/introduction.md",
+    "lastUpdated": "2025-04-04"
+  },
+  {
+    "source": "etc/2022-03-12-Modern_Robotics_Example.md",
+    "destination": "src/content/docs/programming/matlab/modern-robotics.md",
+    "lastUpdated": "2025-04-04"
+  },
+  {
+    "source": "etc/2021-03-10-PID_CONTROL_WITH_PYBULLET.md",
+    "destination": "src/content/docs/robotics/control/pybullet-pd-control.md",
+    "lastUpdated": "2025-04-04"
+  }
+]
