@@ -1,0 +1,17 @@
+---
+import { getCollection } from 'astro:content';
+const categories = ['Mathematics', 'Robotics', 'Engineering', 'Programming'];
+const notes = (await getCollection('docs')).filter(n => n.data.lastUpdated instanceof Date)
+  .sort((a, b) => new Date(b.data.lastUpdated as Date).getTime() - new Date(a.data.lastUpdated as Date).getTime()).slice(0, 6);
+---
+<section class="notes-home">
+  <h1>Minchang's Notes</h1>
+  <p class="intro">Personal notes on robotics, mathematics and programming.</p>
+  <nav aria-label="Note categories" class="categories">
+    {categories.map(name => <a href={`/${name.toLowerCase()}/`}>{name}</a>)}
+  </nav>
+  <h2>Recently Updated</h2>
+  <ul class="recent-notes">
+    {notes.map(note => <li><a href={`/${note.id.replace(/\/$/, '')}/`}>{note.data.title}</a><time datetime={(note.data.lastUpdated as Date).toISOString()}>{(note.data.lastUpdated as Date).toISOString().slice(0, 10)}</time></li>)}
+  </ul>
+</section>

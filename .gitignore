@@ -16,7 +16,7 @@ Gemfile.lock
 
 # npm
 node_modules
-package-lock.json
+
 
 
 # _sass
@@ -29,3 +29,7 @@ _sass/@primer/css/**/*.md
 
 # action
 action.changelog.md
+
+# Astro
+.astro/
+dist/
